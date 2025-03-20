@@ -18,7 +18,7 @@ export const LandingMain = () => {
         <motion.div
           initial={{ transform: "translateX(100px)" }}
           animate={{ transform: "translateX(0px)" }}
-          transition={{ once: true, duration: "1" }}
+          transition={{ once: true, type: "ease-in" }}
           className="bg-fuchsia-600 absolute w-[400px] h-[100px] right-[100px] opacity-70"
         />
       </AnimatePresence>
@@ -29,7 +29,7 @@ export const LandingMain = () => {
             <Image
               src="/stock-4.jpg"
               alt="white bmw e30"
-              className=" border-2 object-cover z-[30]"
+              className="object-cover z-[30]"
               height={400}
               width={600}
             />
