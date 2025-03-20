@@ -1,10 +1,27 @@
+"use client";
+
 import Image from "next/image";
+import { AnimatePresence, motion } from "motion/react";
 
 export const LandingMain = () => {
   return (
     <div className="w-full min-h-[calc(100vh-5rem)] flex">
-      <div className="bg-purple-400 w-[800px] h-[400px] absolute z-[1] left-[600px] top-[250px] opacity-90" />
-      <div className="bg-fuchsia-600 absolute w-[400px] h-[100px] right-[100px] opacity-70" />
+      <AnimatePresence>
+        <motion.div
+          initial={{ transform: "translateX(-100px)" }}
+          animate={{ transform: "translateX(0px)" }}
+          transition={{ once: true, type: "ease-in" }}
+          className="bg-purple-400 w-[800px] h-[400px] absolute z-[1] left-[600px] top-[250px] opacity-90"
+        />
+      </AnimatePresence>
+      <AnimatePresence>
+        <motion.div
+          initial={{ transform: "translateX(100px)" }}
+          animate={{ transform: "translateX(0px)" }}
+          transition={{ once: true, duration: "1" }}
+          className="bg-fuchsia-600 absolute w-[400px] h-[100px] right-[100px] opacity-70"
+        />
+      </AnimatePresence>
       {/* Left Container */}
       <div className=" w-[50%]">
         <div className="flex flex-col h-full">
@@ -12,7 +29,7 @@ export const LandingMain = () => {
             <Image
               src="/stock-4.jpg"
               alt="white bmw e30"
-              className="object-cover z-[30]"
+              className=" border-2 object-cover z-[30]"
               height={400}
               width={600}
             />
