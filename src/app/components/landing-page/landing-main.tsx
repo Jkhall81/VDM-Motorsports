@@ -15,6 +15,7 @@ export const LandingMain = () => {
           className="bg-purple-400 w-[800px] h-[400px] absolute z-[1] left-[600px] top-[250px] opacity-90"
         />
       </AnimatePresence>
+
       <AnimatePresence>
         <motion.div
           key={"two"}
@@ -24,6 +25,7 @@ export const LandingMain = () => {
           className="bg-fuchsia-600 absolute w-[400px] h-[100px] right-[100px] opacity-70"
         />
       </AnimatePresence>
+
       {/* Left Container */}
       <div className=" w-[50%]">
         <div className="flex flex-col h-full">
