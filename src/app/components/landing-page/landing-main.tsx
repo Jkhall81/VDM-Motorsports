@@ -8,6 +8,7 @@ export const LandingMain = () => {
     <div className="w-full min-h-[calc(100vh-5rem)] flex">
       <AnimatePresence>
         <motion.div
+          key={"one"}
           initial={{ transform: "translateX(-100px)" }}
           animate={{ transform: "translateX(0px)" }}
           transition={{ once: true, type: "ease-in" }}
@@ -16,6 +17,7 @@ export const LandingMain = () => {
       </AnimatePresence>
       <AnimatePresence>
         <motion.div
+          key={"two"}
           initial={{ transform: "translateX(100px)" }}
           animate={{ transform: "translateX(0px)" }}
           transition={{ once: true, type: "ease-in" }}
@@ -32,6 +34,7 @@ export const LandingMain = () => {
               className="object-cover z-[30]"
               height={400}
               width={600}
+              priority
             />
           </div>
           <div className="flex flex-col items-start justify-center mt-[200px] mr-[200px] pl-[50px] z-[30]">
@@ -59,6 +62,7 @@ export const LandingMain = () => {
               alt="bmw e30"
               height={900}
               width={900}
+              priority
             />
           </div>
         </div>
