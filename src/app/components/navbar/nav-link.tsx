@@ -9,7 +9,13 @@ interface NavlinkProps {
 
 export const Navlink = ({ href, title, styles }: NavlinkProps) => {
   return (
-    <Link className={cn("px-6 hover:text-purple-700", styles)} href={href}>
+    <Link
+      className={cn(
+        "px-6 font-semibold hover:text-blue-500 select-none",
+        styles
+      )}
+      href={href}
+    >
       {title}
     </Link>
   );

@@ -9,20 +9,20 @@ export const LandingMain = () => {
       <AnimatePresence>
         <motion.div
           key={"one"}
-          initial={{ transform: "translateX(-100px)" }}
-          animate={{ transform: "translateX(0px)" }}
-          transition={{ once: true, type: "ease-in" }}
-          className="bg-purple-400 w-[800px] h-[400px] absolute z-[1] left-[600px] top-[250px] opacity-90"
+          initial={{ opacity: 0.1, transform: "translateX(-400px)" }}
+          animate={{ opacity: 1, transform: "translateX(0px)" }}
+          transition={{ once: true, type: "ease-in", duration: 3 }}
+          className="bg-purple-400 w-[800px] h-[400px] absolute z-[1] left-[600px] top-[250px] opacity-90 will-change-transform"
         />
       </AnimatePresence>
 
       <AnimatePresence>
         <motion.div
           key={"two"}
-          initial={{ transform: "translateX(100px)" }}
-          animate={{ transform: "translateX(0px)" }}
-          transition={{ once: true, type: "ease-in" }}
-          className="bg-fuchsia-600 absolute w-[400px] h-[100px] right-[100px] opacity-70"
+          initial={{ opacity: 0.1, transform: "translateX(300px)" }}
+          animate={{ opacity: 1, transform: "translateX(0px)" }}
+          transition={{ once: true, type: "ease-in", duration: 3 }}
+          className="bg-fuchsia-600 absolute w-[400px] h-[100px] right-[100px] opacity-70 will-change-transform"
         />
       </AnimatePresence>
 
@@ -57,7 +57,7 @@ export const LandingMain = () => {
       <div className=" w-[50%]">
         <div className="flex flex-col h-full">
           <div className="w-full h-[20%]" />
-          <div className="w-full h-[80%] flex justify-center items-center">
+          <div className="w-full h-[80%] flex justify-center items-center bg-neutral-200">
             <Image
               src="/stock-2.jpg"
               className="object-cover z-[30]"

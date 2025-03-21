@@ -22,8 +22,8 @@ const links = [
 
 export const Navbar = () => {
   return (
-    <nav className="h-20 flex items-center justify-between bg-neutral-200 sticky top-0 z-[50]">
-      <div className="px-10 flex gap-x-4">
+    <nav className="h-20 flex items-center justify-between sticky bg-neutral-200 top-0 z-[50]">
+      <div className="px-10 flex gap-x-4 h-full items-center">
         <Logo
           image="/logo.svg"
           alt="garage logo"
