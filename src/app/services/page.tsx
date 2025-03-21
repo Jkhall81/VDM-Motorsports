@@ -1,7 +1,9 @@
+import { ServicesMain } from "./components/services-main";
+
 export default function ServicesPage() {
   return (
-    <div>
-      <h1>Services Page</h1>
+    <div className="w-full min-h-[100vh]">
+      <ServicesMain />
     </div>
   );
 }

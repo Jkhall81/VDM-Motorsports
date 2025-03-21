@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link";
 import { cn } from "@/lib/utils";
+import { usePathname } from "next/navigation";
 
 interface NavlinkProps {
   href: string;
@@ -8,6 +11,7 @@ interface NavlinkProps {
 }
 
 export const Navlink = ({ href, title, styles }: NavlinkProps) => {
+  const pathname = usePathname();
   return (
     <Link
       className={cn(
@@ -16,7 +20,9 @@ export const Navlink = ({ href, title, styles }: NavlinkProps) => {
       )}
       href={href}
     >
-      {title}
+      <span className={cn("", pathname === href ? "text-blue-500" : "")}>
+        {title}
+      </span>
     </Link>
   );
 };

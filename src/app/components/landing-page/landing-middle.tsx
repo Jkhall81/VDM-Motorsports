@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { CallToActionButton } from "./call-to-action-button";
 
 export const LandingMiddle = () => {
   return (
@@ -31,6 +32,15 @@ export const LandingMiddle = () => {
             consequatur, odio nemo harum velit voluptates suscipit optio
             dignissimos illo exercitationem! Fuga, soluta.
           </p>
+        </div>
+        <div className="flex justify-center">
+          <CallToActionButton
+            buttonText="Atque modi odio fugiat!"
+            styles="bg-black hover:bg-neutral-700 opacity-90 text-neutral-100 rounded-md w-full w-[300px] shadow-2xl"
+            containerStyles=""
+            variant="default"
+            href="/"
+          />
         </div>
       </section>
     </main>
