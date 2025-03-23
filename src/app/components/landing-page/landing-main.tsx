@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "motion/react";
 
 export const LandingMain = () => {
   return (
-    <div className="w-full min-h-[calc(100vh-5rem)] flex">
+    <div className="w-full min-h-[calc(100vh-5rem)] flex mb-[50px]">
       <AnimatePresence>
         <motion.div
           key={"one"}
@@ -47,8 +47,9 @@ export const LandingMain = () => {
               Motorsports
             </span>
             <p className="text-muted-foreground pt-10 text-wrap">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint ab
-              laboriosam ipsa aliquam, earum nostrum.
+              Precision-built BMW E30 transmissions for enthusiasts who demand
+              performance and reliability. Crafted with expertise, tested for
+              excellence.
             </p>
           </div>
         </div>

@@ -1,3 +1,4 @@
+import { div } from "motion/react-client";
 import { Logo } from "./logo";
 import { Navlink } from "./nav-link";
 

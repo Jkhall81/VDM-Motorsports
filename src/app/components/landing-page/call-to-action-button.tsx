@@ -26,7 +26,7 @@ export const CallToActionButton = ({
 }: CallToActionButtonProps) => {
   return (
     <div className={cn("", containerStyles)}>
-      <Button variant={variant} className={cn("", styles)}>
+      <Button variant={variant} className={cn("min-w-[300px]", styles)}>
         <Link href={href}>{buttonText}</Link>
       </Button>
     </div>

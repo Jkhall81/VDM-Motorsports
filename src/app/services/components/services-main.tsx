@@ -29,38 +29,32 @@ export const ServicesMain = () => {
               />
               <div className="max-w-[300px]  max-h-[300px] mr-[100px]">
                 <p className="text-muted-foreground">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-                  quod blanditiis reiciendis pariatur labore corrupti fugit
-                  itaque cupiditate voluptatibus nostrum odio delectus hic cum
-                  doloremque ea maiores repudiandae aliquam ut exercitationem
-                  aut doloribus quisquam quae, iste dignissimos. Quam itaque
-                  laudantium perspiciatis quos consectetur explicabo ab iste
-                  suscipit eius velit incidunt ratione, eum perferendis
-                  reiciendis eligendi soluta ea repellendus, consequuntur quod.
+                  At VDM Motorsports, we specialize in rebuilding and refining
+                  BMW E30 transmissions to deliver exceptional performance and
+                  reliability. Whether you're restoring a classic, upgrading for
+                  better drivability, or preparing for track use, our expert
+                  craftsmanship ensures your transmission meets the highest
+                  standards. Each rebuild is meticulously inspected, refreshed
+                  with high-quality components, and tested to ensure smooth,
+                  precise shifting—bringing new life to your E30.
                 </p>
               </div>
             </div>
             <div className="px-[100px] mt-[100px]">
               <p className="text-muted-foreground">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Voluptate commodi repudiandae enim assumenda! Aliquam omnis modi
-                beatae illum delectus exercitationem sed excepturi facere eaque
-                quas numquam atque harum quasi molestias dicta voluptates at
-                optio debitis saepe sequi adipisci vel alias, error cumque! Quod
-                quibusdam voluptate aperiam, provident ex similique impedit
-                harum aliquam nemo? Quam ipsam sed dicta facilis, eaque
-                provident quisquam? Alias dignissimos dolorum corporis corrupti.
-                Eaque, numquam, repudiandae in exercitationem saepe fuga
-                asperiores quaerat earum magnam molestias tempore laborum
-                quisquam cum facilis esse magni architecto ipsum eum sapiente
-                adipisci?
+                Based in Phoenix, AZ, we take pride in serving BMW enthusiasts
+                across the country. Our commitment to quality and attention to
+                detail set us apart, making VDM Motorsports the trusted choice
+                for E30 owners who demand the best. If you're ready to upgrade
+                your transmission, reach out today and let us help you get back
+                on the road with confidence.
               </p>
             </div>
             <div className="flex justify-center mt-[100px]">
               <CallToActionButton
-                buttonText="Atque modi odio fugiat!"
-                styles="bg-black hover:bg-neutral-700 opacity-90 text-neutral-100 rounded-md w-full w-[300px] shadow-2xl"
-                containerStyles=""
+                buttonText="Get a Quote"
+                styles="bg-gradient-to-r from-blue-400 to-blue-600 hover:brightness-110 hover:scale-[1.02] transition-all duration-200 ease-in-out text-neutral-100 rounded-lg w-full max-w-[300px] shadow-[0px_4px_15px_rgba(0,150,255,0.5)]"
+                containerStyles="flex justify-center"
                 variant="default"
                 href="/"
               />
