@@ -9,7 +9,7 @@ const bioText = [
 export default function AboutUsPage() {
   return (
     <main className="w-full min-h-[100vh]">
-      <h1 className="text-center text-3xl mt-10 font-semibold">About Us</h1>
+      <h1 className="sectionTitle">About Us</h1>
       <section className="grid grid-cols-3 h-[80vh]">
         <div className="col-span-1">
           <PersonBio

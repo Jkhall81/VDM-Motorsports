@@ -5,7 +5,7 @@ import Image from "next/image";
 export const TechnologyMain = () => {
   return (
     <main className="w-full min-h-[calc(100vh-5rem)]">
-      <h1 className="text-center mt-20 text-3xl">
+      <h1 className="sectionTitle">
         Reviving Performance: Technology That Powers Our Rebuilds
       </h1>
       <div className="bg-fuchsia-600 h-[100px] w-[400px] left-[1100px] top-[250px] opacity-90 absolute" />

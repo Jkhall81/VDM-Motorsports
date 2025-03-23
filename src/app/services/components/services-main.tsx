@@ -8,7 +8,7 @@ export const ServicesMain = () => {
   return (
     <main>
       <section className="w-full min-h-screen bg-neutral-200  pb-[200px]">
-        <h1 className="text-center text-3xl pt-[70px]">
+        <h1 className="sectionTitle">
           Precision{" "}
           <span className="bg-gradient-to-r from-purple-300 to-fuchsia-700 bg-clip-text text-transparent font-semibold">
             BMW E30

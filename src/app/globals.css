@@ -119,3 +119,7 @@
     @apply bg-background text-foreground;
   }
 }
+
+.sectionTitle {
+  @apply text-center text-3xl pt-[70px] tracking-wider text-stone-600 font-semibold;
+}
