@@ -1,4 +1,3 @@
-import { main } from "motion/react-client";
 import Image from "next/image";
 
 export const ServicesMain = () => {

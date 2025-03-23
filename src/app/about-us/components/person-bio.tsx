@@ -10,7 +10,6 @@ interface PersonBioProps {
 }
 
 export const PersonBio = ({
-  orientation,
   imageSrc,
   imageSize,
   imageAlt,
