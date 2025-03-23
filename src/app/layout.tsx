@@ -30,7 +30,7 @@ export default function RootLayout({
   return (
     <html className="overflow-x-hidden" lang="en">
       <body
-        className={`bg-neutral-200 ${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`bg-neutral-200 w-[1920px] h-[1080px] ${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Navbar />
         {children}
