@@ -31,12 +31,12 @@ export const ServicesMain = () => {
                 <p className="text-muted-foreground">
                   At VDM Motorsports, we specialize in rebuilding and refining
                   BMW E30 transmissions to deliver exceptional performance and
-                  reliability. Whether you're restoring a classic, upgrading for
-                  better drivability, or preparing for track use, our expert
-                  craftsmanship ensures your transmission meets the highest
-                  standards. Each rebuild is meticulously inspected, refreshed
-                  with high-quality components, and tested to ensure smooth,
-                  precise shifting—bringing new life to your E30.
+                  reliability. Whether you&apos;re restoring a classic,
+                  upgrading for better drivability, or preparing for track use,
+                  our expert craftsmanship ensures your transmission meets the
+                  highest standards. Each rebuild is meticulously inspected,
+                  refreshed with high-quality components, and tested to ensure
+                  smooth, precise shifting—bringing new life to your E30.
                 </p>
               </div>
             </div>
@@ -45,9 +45,9 @@ export const ServicesMain = () => {
                 Based in Phoenix, AZ, we take pride in serving BMW enthusiasts
                 across the country. Our commitment to quality and attention to
                 detail set us apart, making VDM Motorsports the trusted choice
-                for E30 owners who demand the best. If you're ready to upgrade
-                your transmission, reach out today and let us help you get back
-                on the road with confidence.
+                for E30 owners who demand the best. If you&apos;re ready to
+                upgrade your transmission, reach out today and let us help you
+                get back on the road with confidence.
               </p>
             </div>
             <div className="flex justify-center mt-[100px]">

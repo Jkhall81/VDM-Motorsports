@@ -21,8 +21,9 @@ export const LandingMiddle = () => {
             At VDM Motorsports, we specialize in remanufacturing BMW E30
             transmissions to the highest standards. Every build is meticulously
             crafted to deliver smooth shifting, durability, and performance that
-            exceeds factory expectations. Whether you're restoring a classic or
-            upgrading for the track, our transmissions are built to perform.
+            exceeds factory expectations. Whether you&apos;re restoring a
+            classic or upgrading for the track, our transmissions are built to
+            perform.
           </p>
         </div>
         <div className="z-[30]">
