@@ -23,8 +23,8 @@ export const Footer = () => {
           </div>
           <div className="mx-10">
             <blockquote className="text-neutral-100">
-              "Precision-built E30 transmissions for enthusiasts and
-              professionals."
+              &ldquo;Precision-built E30 transmissions for enthusiasts and
+              professionals.&rdquo;
             </blockquote>
           </div>
         </div>
