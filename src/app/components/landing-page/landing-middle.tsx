@@ -3,7 +3,7 @@ import { CallToActionButton } from "./call-to-action-button";
 
 export const LandingMiddle = () => {
   return (
-    <main className="w-full h-full flex">
+    <main className="w-full h-full flex pt-[200px] pb-[200px]">
       <div className="bg-blue-400 absolute h-[300px] w-[600px] z-[1] left-[650px] top-[1090px]" />
       <section className="flex items-center justify-center min-h-[70vh] w-2/3">
         <Image
@@ -12,6 +12,7 @@ export const LandingMiddle = () => {
           height={800}
           width={800}
           className="object-cover z-[30]"
+          priority
         />
       </section>
       <section className="min-h-[70vh] w-1/3 flex flex-col justify-center">

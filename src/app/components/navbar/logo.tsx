@@ -12,7 +12,7 @@ interface LogoProps {
 
 export const Logo = ({ image, href, size, styles, alt }: LogoProps) => {
   return (
-    <Link href={href} className="border-2 h-full flex items-center">
+    <Link href={href} className="h-full flex items-center">
       <Image
         src={image}
         alt={alt}
