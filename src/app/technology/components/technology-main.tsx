@@ -7,17 +7,19 @@ export const TechnologyMain = () => {
       <h1 className="text-center mt-20 text-3xl">
         Reviving Performance: Technology That Powers Our Rebuilds
       </h1>
+      <div className="bg-fuchsia-600 h-[100px] w-[400px] left-[1100px] top-[250px] opacity-90 absolute" />
       <section className="grid grid-cols-2 pt-[50px]">
         {/* Left Container */}
         <div className="flex items-center justify-center min-h-[80vh]">
           <Image
             src="/stock-7.jpg"
-            className="object-cover"
+            className="object-cover z-[30]"
             alt="e30 transmission"
             height={700}
             width={700}
             priority
           />
+          <div className="bg-purple-400 h-[400px] w-[800px] absolute top-[600px] left-[200px] opacity-90 z-[1]" />
         </div>
         {/* Right Container */}
         <div className="flex flex-col">
@@ -94,12 +96,13 @@ export const TechnologyMain = () => {
           <Image
             src="/stock-5.jpg"
             alt="white e30"
-            className="object-cover"
+            className="object-cover z-[30]"
             height={700}
             width={700}
             priority
           />
         </div>
+        <div className="bg-blue-400 h-[300px] w-[300px] z-[1] absolute left-[900px] bottom-[-600px]" />
       </section>
     </main>
   );

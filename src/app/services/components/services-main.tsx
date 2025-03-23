@@ -1,4 +1,8 @@
+"use client";
+
 import Image from "next/image";
+import { AnimatePresence, motion } from "motion/react";
+import { CallToActionButton } from "@/app/components/landing-page/call-to-action-button";
 
 export const ServicesMain = () => {
   return (
@@ -52,13 +56,31 @@ export const ServicesMain = () => {
                 adipisci?
               </p>
             </div>
+            <div className="flex justify-center mt-[100px]">
+              <CallToActionButton
+                buttonText="Atque modi odio fugiat!"
+                styles="bg-black hover:bg-neutral-700 opacity-90 text-neutral-100 rounded-md w-full w-[300px] shadow-2xl"
+                containerStyles=""
+                variant="default"
+                href="/"
+              />
+            </div>
           </div>
           {/* Right Container */}
           <div className="min-h-[calc(100vh-5rem)] w-1/2 flex items-center justify-center">
+            <AnimatePresence>
+              <motion.div
+                key={"one"}
+                initial={{ opacity: 0.1, transform: "translateX(0px)" }}
+                animate={{ opacity: 1, transform: "translateX(-300px)" }}
+                transition={{ once: true, type: "ease-in", duration: 3 }}
+                className="bg-blue-400 absolute w-[400px] h-[400px] z-[1]"
+              />
+            </AnimatePresence>
             <Image
               src="/stock-1.webp"
               alt="e30 white"
-              className="object-cover"
+              className="object-cover z-[30]"
               width={700}
               height={700}
               priority
