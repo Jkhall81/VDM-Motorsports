@@ -56,7 +56,7 @@ export function ContactForm() {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="space-y-8 border-2 ml-20 shadow-2xl bg-slate-200 px-10 py-20 w-[30vw] border-neutral-500 rounded-xl"
+        className="z-[30] space-y-8 border-2 ml-20 shadow-2xl bg-gray-400 px-10 py-20 w-[30vw] border-neutral-500 rounded-xl"
       >
         {/* Full name */}
         <FormField
@@ -86,7 +86,7 @@ export function ContactForm() {
               <FormControl>
                 <Input
                   className={inputStyles}
-                  placeholder="623-581-0396"
+                  placeholder="111-222-3456"
                   {...field}
                 />
               </FormControl>
@@ -104,7 +104,7 @@ export function ContactForm() {
               <FormControl>
                 <Input
                   className={inputStyles}
-                  placeholder="JHalyd@gmail.com"
+                  placeholder="address@email.com"
                   {...field}
                 />
               </FormControl>

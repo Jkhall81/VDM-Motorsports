@@ -8,24 +8,24 @@ export const TechnologyMain = () => {
       <h1 className="sectionTitle">
         Reviving Performance: Technology That Powers Our Rebuilds
       </h1>
-      <div className="bg-fuchsia-600 h-[100px] w-[400px] left-[1100px] top-[250px] opacity-90 absolute" />
+      <div className="bg-fuchsia-600 h-[100px] w-[400px] left-[1100px] top-[250px] opacity-90 absolute rounded-r-4xl rounded-tl-4xl" />
       <section className="grid grid-cols-2 pt-[50px]">
         {/* Left Container */}
         <div className="flex items-center justify-center min-h-[80vh]">
           <Image
             src="/stock-7.jpg"
-            className="object-cover z-[30]"
+            className="object-cover z-[30] rounded-l-4xl rounded-tr-4xl"
             alt="e30 transmission"
             height={700}
             width={700}
             priority
           />
-          <div className="bg-purple-400 h-[400px] w-[800px] absolute top-[600px] left-[200px] opacity-90 z-[1]" />
+          <div className="bg-purple-400 h-[400px] w-[800px] absolute top-[600px] left-[200px] opacity-90 z-[1] rounded-l-4xl rounded-tr-4xl" />
         </div>
         {/* Right Container */}
         <div className="flex flex-col">
           <div className="mx-[100px] mt-[160px] mb-[50px]">
-            <p className="text-muted-foreground">
+            <p className="text-black">
               At VDM Motorsports, we are dedicated to keeping the legendary BMW
               E30 alive by providing high-quality transmission rebuilds for
               enthusiasts and restorers alike. With BMW no longer manufacturing
@@ -38,7 +38,7 @@ export const TechnologyMain = () => {
             </p>
           </div>
           <div className="mx-[100px] mb-[50px]">
-            <p className="text-muted-foreground">
+            <p className="text-black">
               To ensure the highest level of precision and reliability,
               we&apos;ve developed our own custom tooling and machining
               processes. Unlike mass-market rebuilders, we don&apos;t rely on
@@ -51,7 +51,7 @@ export const TechnologyMain = () => {
             </p>
           </div>
           <div className="mx-[100px]">
-            <p className="text-muted-foreground">
+            <p className="text-black">
               Our craftsmanship is built on years of experience, attention to
               detail, and an uncompromising standard for quality. Each
               transmission is carefully disassembled, inspected, and reassembled
@@ -72,13 +72,13 @@ export const TechnologyMain = () => {
             <div className="flex justify-center">
               <CallToActionButton
                 buttonText="Contact Us"
-                styles="bg-gradient-to-r from-purple-400 to-fuchsia-600 hover:brightness-110 hover:scale-[1.02] transition-all duration-200 ease-in-out text-neutral-100 rounded-lg w-full shadow-[0px_4px_15px_rgba(245,0,255,0.5)]"
+                styles="bg-gradient-to-r from-purple-400 to-fuchsia-600 z-[30] hover:brightness-110 hover:scale-[1.02] transition-all duration-200 ease-in-out text-neutral-100 rounded-lg w-full shadow-[0px_4px_15px_rgba(245,0,255,0.5)]"
                 containerStyles="flex justify-center mt-[200px]"
                 variant="default"
                 href="/"
               />
             </div>
-            <p>
+            <p className="text-black">
               We aren&apos;t just rebuilding transmissions—we&apos;re preserving
               the spirit of the E30. Every rebuild is a testament to our
               commitment to this iconic platform. BMW engineered the E30 to be a
@@ -86,7 +86,7 @@ export const TechnologyMain = () => {
               ensuring each transmission we build is as solid and reliable as
               the day it left the factory.
             </p>
-            <p>
+            <p className="text-black">
               Our team is passionate about these cars, and every rebuild
               reflects our deep appreciation for BMW&apos;s engineering legacy.
               Owning an E30 is more than just driving a classic; it&apos;s about
@@ -94,7 +94,7 @@ export const TechnologyMain = () => {
               take every step necessary to ensure our transmissions uphold the
               precision and durability that BMW intended.
             </p>
-            <p>
+            <p className="text-black">
               When you choose VDM Motorsports, you&apos;re choosing innovation,
               craftsmanship, and a team that shares your passion for the E30. We
               know these cars inside and out, and we put the same level of care
@@ -107,13 +107,13 @@ export const TechnologyMain = () => {
           <Image
             src="/stock-5.jpg"
             alt="white e30"
-            className="object-cover z-[30]"
+            className="object-cover z-[30] rounded-r-4xl rounded-bl-4xl"
             height={700}
             width={700}
             priority
           />
+          <div className="absolute bg-blue-400 h-[300px] w-[300px] z-[1] left-[900px] bottom-[200px] rounded-bl-4xl" />
         </div>
-        <div className="bg-blue-400 h-[300px] w-[300px] z-[1] absolute left-[900px] bottom-[-600px]" />
       </section>
     </main>
   );

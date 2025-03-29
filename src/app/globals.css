@@ -121,5 +121,5 @@
 }
 
 .sectionTitle {
-  @apply text-center text-3xl pt-[70px] tracking-wider text-stone-600 font-semibold;
+  @apply text-center text-3xl pt-[70px] tracking-wider text-stone-800 font-semibold z-[30];
 }

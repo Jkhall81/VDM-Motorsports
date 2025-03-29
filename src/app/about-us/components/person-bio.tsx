@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import { cn } from "@/lib/utils";
 interface PersonBioProps {
   orientation?: string;
   name: string;
@@ -7,6 +7,7 @@ interface PersonBioProps {
   imageSrc: string;
   imageSize: number;
   imageAlt: string;
+  imageStyles: string;
 }
 
 export const PersonBio = ({
@@ -15,6 +16,7 @@ export const PersonBio = ({
   imageAlt,
   name,
   bioText,
+  imageStyles,
 }: PersonBioProps) => {
   return (
     <section className="grid grid-col-3 space-y-10">
@@ -22,7 +24,7 @@ export const PersonBio = ({
       <div className="col-span-2 flex flex-col items-center">
         <Image
           alt={imageAlt}
-          className="object-cover"
+          className={cn("object-cover z-[30]", imageStyles)}
           src={imageSrc}
           height={imageSize}
           width={imageSize}

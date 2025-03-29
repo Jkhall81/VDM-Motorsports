@@ -7,7 +7,7 @@ import { CallToActionButton } from "@/app/components/landing-page/call-to-action
 export const ServicesMain = () => {
   return (
     <main>
-      <section className="w-full min-h-screen bg-neutral-200  pb-[200px]">
+      <section className="w-full min-h-screen bg-neutral-200 pb-[200px]">
         <h1 className="sectionTitle">
           Precision{" "}
           <span className="bg-gradient-to-r from-purple-300 to-fuchsia-700 bg-clip-text text-transparent font-semibold">
@@ -21,14 +21,14 @@ export const ServicesMain = () => {
             <div className="ml-[100px] mt-[100px] flex justify-between">
               <Image
                 src="/stock-6.jpg"
-                className="object-cover"
+                className="object-cover z-[30] rounded-l-4xl rounded-tr-4xl"
                 width={300}
                 height={300}
                 alt="e30 transmission"
                 priority
               />
               <div className="max-w-[300px]  max-h-[300px] mr-[100px]">
-                <p className="text-muted-foreground">
+                <p className="text-black">
                   At VDM Motorsports, we specialize in rebuilding and refining
                   BMW E30 transmissions to deliver exceptional performance and
                   reliability. Whether you&apos;re restoring a classic,
@@ -41,7 +41,7 @@ export const ServicesMain = () => {
               </div>
             </div>
             <div className="px-[100px] mt-[100px]">
-              <p className="text-muted-foreground">
+              <p className="text-black">
                 Based in Phoenix, AZ, we take pride in serving BMW enthusiasts
                 across the country. Our commitment to quality and attention to
                 detail set us apart, making VDM Motorsports the trusted choice
@@ -53,7 +53,7 @@ export const ServicesMain = () => {
             <div className="flex justify-center mt-[100px]">
               <CallToActionButton
                 buttonText="Get a Quote"
-                styles="bg-gradient-to-r from-blue-400 to-blue-600 hover:brightness-110 hover:scale-[1.02] transition-all duration-200 ease-in-out text-neutral-100 rounded-lg w-full max-w-[300px] shadow-[0px_4px_15px_rgba(0,150,255,0.5)]"
+                styles="bg-gradient-to-r from-blue-400 to-blue-600 z-[30] hover:brightness-110 hover:scale-[1.02] transition-all duration-200 ease-in-out text-neutral-100 rounded-lg w-full max-w-[300px] shadow-[0px_4px_15px_rgba(0,150,255,0.5)]"
                 containerStyles="flex justify-center"
                 variant="default"
                 href="/"
@@ -68,13 +68,13 @@ export const ServicesMain = () => {
                 initial={{ opacity: 0.1, transform: "translateX(0px)" }}
                 animate={{ opacity: 1, transform: "translateX(-300px)" }}
                 transition={{ once: true, type: "ease-in", duration: 3 }}
-                className="bg-blue-400 absolute w-[400px] h-[400px] z-[1]"
+                className="bg-blue-400 absolute w-[400px] h-[400px] z-[1] rounded-tl-4xl"
               />
             </AnimatePresence>
             <Image
               src="/stock-1.webp"
               alt="e30 white"
-              className="object-cover z-[30]"
+              className="object-cover z-[30] rounded-r-4xl rounded-tl-4xl"
               width={700}
               height={700}
               priority

@@ -13,11 +13,12 @@ export default function AboutUsPage() {
       <section className="grid grid-cols-3 h-[80vh]">
         <div className="col-span-1">
           <PersonBio
-            name="Name Name"
+            name="Jack Roman"
             bioText={bioText[0]}
             imageSrc="/stock-smiling-1.avif"
             imageSize={400}
             imageAlt="smiling person"
+            imageStyles="rounded-l-4xl rounded-tr-4xl"
           />
         </div>
         <div className="col-span-2 flex items-center justify-center">
@@ -26,27 +27,28 @@ export default function AboutUsPage() {
             alt="e30 interior"
             height={700}
             width={700}
-            className="object-cover"
+            className="object-cover z-[30] rounded-r-4xl rounded-tl-4xl"
           />
         </div>
       </section>
-      <section className="grid grid-cols-3 h-[80vh] mb-[200px]">
+      <section className="grid grid-cols-3 h-full pb-[200px]">
         <div className="col-span-2 flex items-center justify-center">
           <Image
             src="/stock-9.jpg"
             alt="e30 interior"
             height={700}
             width={700}
-            className="object-cover"
+            className="object-cover z-[30] rounded-l-4xl rounded-br-4xl"
           />
         </div>
         <div className="col-span-1">
           <PersonBio
-            name="Name Name"
+            name="Gavin Goodoien"
             bioText={bioText[0]}
             imageSrc="/stock-smiling-2.webp"
             imageSize={400}
             imageAlt="smiling person"
+            imageStyles="rounded-r-4xl rounded-bl-4xl"
           />
         </div>
       </section>

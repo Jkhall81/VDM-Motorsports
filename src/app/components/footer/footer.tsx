@@ -10,16 +10,16 @@ export const Footer = () => {
         <div className="flex flex-col">
           <div className="flex px-10 pt-10 pb-5">
             <Logo
-              image="/logo.svg"
+              image="/VDM-test-one.png"
               alt="garage logo"
               href="/"
               styles=""
-              size={55}
+              size={165}
             />
-            <h2 className="text-xl ml-4">
+            {/* <h2 className="text-xl ml-4">
               <span className="font-semibold">VDM</span>{" "}
               <span className="text-white">Motorsports</span>
-            </h2>
+            </h2> */}
           </div>
           <div className="mx-10">
             <blockquote className="text-neutral-100">
