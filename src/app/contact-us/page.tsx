@@ -15,7 +15,7 @@ export default function ContactUsPage() {
           <Image
             src="/contact-stock-2.avif"
             alt="red e30"
-            className="object-cover z-[30]"
+            className="object-cover z-[30] rounded-r-4xl rounded-tl-4xl"
             height={900}
             width={900}
           />
