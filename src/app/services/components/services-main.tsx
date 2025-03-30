@@ -27,7 +27,7 @@ export const ServicesMain = () => {
                 alt="e30 transmission"
                 priority
               />
-              <div className="max-w-[300px]  max-h-[300px] mr-[100px]">
+              <div className="max-w-[350px] pt-5 max-h-[300px] mr-[100px]">
                 <p className="text-black">
                   At VDM Motorsports, we specialize in rebuilding and refining
                   BMW E30 transmissions to deliver exceptional performance and

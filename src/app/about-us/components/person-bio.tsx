@@ -30,8 +30,8 @@ export const PersonBio = ({
           width={imageSize}
         />
       </div>
-      <div className="col-span-1 mx-16">
-        <p className="text-muted-foreground">{bioText}</p>
+      <div className="col-span-1 mt-5 mx-16">
+        <p className="text-black">{bioText}</p>
       </div>
     </section>
   );

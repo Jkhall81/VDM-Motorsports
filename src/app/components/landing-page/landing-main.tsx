@@ -46,7 +46,7 @@ export const LandingMain = () => {
               </strong>{" "}
               Motorsports
             </span>
-            <p className="text-black pt-10 text-wrap">
+            <p className="text-black text-lg pt-10 text-wrap">
               Precision-built BMW E30 transmissions for enthusiasts who demand
               performance and reliability. Crafted with expertise, tested for
               excellence.

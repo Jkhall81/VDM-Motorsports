@@ -15,9 +15,9 @@ export const LandingMiddle = () => {
           priority
         />
       </section>
-      <section className="min-h-[70vh] w-1/3 flex flex-col justify-center">
+      <section className="min-h-[70vh] w-1/3 flex flex-col justify-center text-lg">
         <div className="z-[30]">
-          <p className="text-black p-10">
+          <p className="text-black px-10 pt-10 pb-5">
             At VDM Motorsports, we specialize in remanufacturing BMW E30
             transmissions to the highest standards. Every build is meticulously
             crafted to deliver smooth shifting, durability, and performance that
@@ -27,7 +27,7 @@ export const LandingMiddle = () => {
           </p>
         </div>
         <div className="z-[30]">
-          <p className="text-black p-10">
+          <p className="text-black px-10 pt-5 pb-10">
             Don&apos;t settle for anything less than the best. Get in touch
             today and experience the VDM Motorsports difference.
           </p>

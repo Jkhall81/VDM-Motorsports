@@ -24,7 +24,7 @@ export const TechnologyMain = () => {
         </div>
         {/* Right Container */}
         <div className="flex flex-col">
-          <div className="mx-[100px] mt-[160px] mb-[50px]">
+          <div className="mx-[100px] mt-[200px] mb-[50px]">
             <p className="text-black">
               At VDM Motorsports, we are dedicated to keeping the legendary BMW
               E30 alive by providing high-quality transmission rebuilds for
