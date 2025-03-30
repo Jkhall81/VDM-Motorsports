@@ -60,7 +60,7 @@ export const LandingMain = () => {
           <div className="w-full h-[20%]" />
           <div className="w-full h-[80%] flex justify-center items-center bg-neutral-200">
             <Image
-              src="/stock-2.jpg"
+              src="/stock-2.png"
               className="object-cover z-[30] rounded-tr-4xl rounded-br-4xl rounded-tl-4xl"
               alt="bmw e30"
               height={900}
