@@ -26,9 +26,14 @@ export const CallToActionButton = ({
 }: CallToActionButtonProps) => {
   return (
     <div className={cn("", containerStyles)}>
-      <Button variant={variant} className={cn("min-w-[300px]", styles)}>
-        <Link href={href}>{buttonText}</Link>
-      </Button>
+      <Link className="z-[30]" href={href}>
+        <Button
+          variant={variant}
+          className={cn("min-w-[300px] cursor-pointer", styles)}
+        >
+          {buttonText}
+        </Button>
+      </Link>
     </div>
   );
 };

@@ -10,7 +10,7 @@ export const ServicesMain = () => {
       <section className="w-full min-h-screen bg-neutral-200 pb-[200px]">
         <h1 className="sectionTitle">
           Precision{" "}
-          <span className="bg-gradient-to-r from-purple-300 to-fuchsia-700 bg-clip-text text-transparent font-semibold">
+          <span className="bg-gradient-to-r from-[#6FEBA7] to-[#147a53b2] bg-clip-text text-transparent font-semibold">
             BMW E30
           </span>{" "}
           Transmission Rebuilds
@@ -53,10 +53,10 @@ export const ServicesMain = () => {
             <div className="flex justify-center mt-[100px]">
               <CallToActionButton
                 buttonText="Get a Quote"
-                styles="bg-gradient-to-r from-blue-400 to-blue-600 z-[30] hover:brightness-110 hover:scale-[1.02] transition-all duration-200 ease-in-out text-neutral-100 rounded-lg w-full max-w-[300px] shadow-[0px_4px_15px_rgba(0,150,255,0.5)]"
+                styles="bg-gradient-to-r from-neutral-500 to-[#121212] z-[30] hover:brightness-110 hover:scale-[1.02] transition-all duration-200 ease-in-out text-neutral-100 rounded-lg w-full max-w-[300px] shadow-[0px_4px_15px_rgba(0,150,255,0.5)]"
                 containerStyles="flex justify-center"
                 variant="default"
-                href="/"
+                href="/contact-us"
               />
             </div>
           </div>
@@ -68,7 +68,7 @@ export const ServicesMain = () => {
                 initial={{ opacity: 0.1, transform: "translateX(0px)" }}
                 animate={{ opacity: 1, transform: "translateX(-300px)" }}
                 transition={{ once: true, type: "ease-in", duration: 3 }}
-                className="bg-blue-400 absolute w-[400px] h-[400px] z-[1] rounded-tl-4xl"
+                className="bg-[rgb(111,235,167)] absolute w-[400px] h-[400px] z-[1] rounded-tl-4xl"
               />
             </AnimatePresence>
             <Image

@@ -15,12 +15,12 @@ export const Navlink = ({ href, title, styles }: NavlinkProps) => {
   return (
     <Link
       className={cn(
-        "px-6 font-semibold hover:text-blue-600 select-none",
+        "px-6 font-semibold hover:text-emerald-500 select-none",
         styles
       )}
       href={href}
     >
-      <span className={cn("", pathname === href ? "text-blue-600" : "")}>
+      <span className={cn("", pathname === href ? "text-emerald-500" : "")}>
         {title}
       </span>
     </Link>

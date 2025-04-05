@@ -8,7 +8,7 @@ export const TechnologyMain = () => {
       <h1 className="sectionTitle">
         Reviving Performance: Technology That Powers Our Rebuilds
       </h1>
-      <div className="bg-fuchsia-600 h-[100px] w-[400px] left-[1100px] top-[250px] opacity-90 absolute rounded-r-4xl rounded-tl-4xl" />
+      <div className="bg-[#147a53b2] h-[100px] w-[400px] left-[1100px] top-[250px] opacity-90 absolute rounded-r-4xl rounded-tl-4xl" />
       <section className="grid grid-cols-2 pt-[50px]">
         {/* Left Container */}
         <div className="flex items-center justify-center min-h-[80vh]">
@@ -20,7 +20,7 @@ export const TechnologyMain = () => {
             width={700}
             priority
           />
-          <div className="bg-purple-400 h-[400px] w-[800px] absolute top-[600px] left-[200px] opacity-90 z-[1] rounded-l-4xl rounded-tr-4xl" />
+          <div className="bg-[rgb(111,235,167)] h-[400px] w-[800px] absolute top-[600px] left-[200px] opacity-90 z-[1] rounded-l-4xl rounded-tr-4xl" />
         </div>
         {/* Right Container */}
         <div className="flex flex-col">
@@ -72,10 +72,10 @@ export const TechnologyMain = () => {
             <div className="flex justify-center">
               <CallToActionButton
                 buttonText="Contact Us"
-                styles="bg-gradient-to-r from-purple-400 to-fuchsia-600 z-[30] hover:brightness-110 hover:scale-[1.02] transition-all duration-200 ease-in-out text-neutral-100 rounded-lg w-full shadow-[0px_4px_15px_rgba(245,0,255,0.5)]"
+                styles="bg-gradient-to-r from-[#121212] to-neutral-500 z-[30] hover:brightness-110 hover:scale-[1.02] transition-all duration-200 ease-in-out text-neutral-100 rounded-lg w-full shadow-[0px_4px_15px_rgba(111,235,167,0.5)]"
                 containerStyles="flex justify-center mt-[200px]"
                 variant="default"
-                href="/"
+                href="/contact-us"
               />
             </div>
             <p className="text-black">
@@ -112,7 +112,7 @@ export const TechnologyMain = () => {
             width={700}
             priority
           />
-          <div className="absolute bg-blue-400 h-[300px] w-[300px] z-[1] left-[900px] bottom-[200px] rounded-bl-4xl" />
+          <div className="absolute bg-[#121212] h-[300px] w-[300px] z-[1] left-[900px] bottom-[200px] rounded-bl-4xl" />
         </div>
       </section>
     </main>

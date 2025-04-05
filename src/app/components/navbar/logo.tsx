@@ -17,7 +17,7 @@ export const Logo = ({ image, href, size, styles, alt }: LogoProps) => {
         src={image}
         alt={alt}
         className={cn(
-          "object-cover drop-shadow-[0_0_15px_rgba(139,92,246,0.7)]",
+          "object-cover drop-shadow-[0_0_15px_rgba(111,235,167,0.7)]",
           styles
         )}
         height={size}
