@@ -10,8 +10,8 @@ export default function AboutUsPage() {
   return (
     <main className="w-full min-h-[100vh]">
       <h1 className="sectionTitle">About Us</h1>
-      <section className="grid grid-cols-3 h-[80vh]">
-        <div className="col-span-1">
+      <section className="2xl:grid 2xl:grid-cols-3 h-[80vh]">
+        <div className="col-span-1 2xl:ml-[50px]">
           <PersonBio
             name="Jack Roman"
             bioText={bioText[0]}
@@ -21,7 +21,7 @@ export default function AboutUsPage() {
             imageStyles="rounded-l-4xl rounded-tr-4xl"
           />
         </div>
-        <div className="col-span-2 flex items-center justify-center">
+        <div className="2xl:col-span-2 2xl:flex hidden items-center justify-center">
           <Image
             src="/stock-8.webp"
             alt="e30 interior"
@@ -31,8 +31,8 @@ export default function AboutUsPage() {
           />
         </div>
       </section>
-      <section className="grid grid-cols-3 h-full pb-[200px]">
-        <div className="col-span-2 flex items-center justify-center">
+      <section className="2xl:grid 2xl:grid-cols-3 h-full pb-[200px]">
+        <div className="2xl:col-span-2 2xl:flex hidden items-center justify-center">
           <Image
             src="/stock-9.jpg"
             alt="e30 interior"
@@ -41,7 +41,7 @@ export default function AboutUsPage() {
             className="object-cover z-[30] rounded-l-4xl rounded-br-4xl"
           />
         </div>
-        <div className="col-span-1">
+        <div className="col-span-1 2xl:mr-[50px]">
           <PersonBio
             name="Gavin Goodoien"
             bioText={bioText[0]}

@@ -8,10 +8,10 @@ export const TechnologyMain = () => {
       <h1 className="sectionTitle">
         Reviving Performance: Technology That Powers Our Rebuilds
       </h1>
-      <div className="bg-[#147a53b2] h-[100px] w-[400px] left-[1100px] top-[250px] opacity-90 absolute rounded-r-4xl rounded-tl-4xl" />
-      <section className="grid grid-cols-2 pt-[50px]">
+      <div className="bg-[#147a53b2] 3xl:h-[100px] 3xl:w-[400px] left-[1100px] top-[250px] opacity-90 absolute rounded-r-4xl rounded-tl-4xl" />
+      <section className="2xl:grid 2xl:grid-cols-2 pt-[50px]">
         {/* Left Container */}
-        <div className="flex items-center justify-center min-h-[80vh]">
+        <div className="flex items-center justify-center 2xl:min-h-[80vh]">
           <Image
             src="/stock-7.jpg"
             className="object-cover z-[30] rounded-l-4xl rounded-tr-4xl"
@@ -20,11 +20,11 @@ export const TechnologyMain = () => {
             width={700}
             priority
           />
-          <div className="bg-[rgb(111,235,167)] h-[400px] w-[800px] absolute top-[600px] left-[200px] opacity-90 z-[1] rounded-l-4xl rounded-tr-4xl" />
+          <div className="bg-[rgb(111,235,167)] 3xl:h-[400px] 3xl:w-[800px] absolute top-[600px] left-[200px] opacity-90 z-[1] rounded-l-4xl rounded-tr-4xl" />
         </div>
         {/* Right Container */}
         <div className="flex flex-col">
-          <div className="mx-[100px] mt-[200px] mb-[50px]">
+          <div className="mx-[100px] mt-[100px] 2xl:mt-[200px] 2xl:mb-[50px]">
             <p className="text-black">
               At VDM Motorsports, we are dedicated to keeping the legendary BMW
               E30 alive by providing high-quality transmission rebuilds for
@@ -37,7 +37,7 @@ export const TechnologyMain = () => {
               build.
             </p>
           </div>
-          <div className="mx-[100px] mb-[50px]">
+          <div className="mx-[100px] my-[50px]">
             <p className="text-black">
               To ensure the highest level of precision and reliability,
               we&apos;ve developed our own custom tooling and machining
@@ -65,15 +65,15 @@ export const TechnologyMain = () => {
         </div>
       </section>
       <Separator className="bg-black mx-20 mt-[120px]" />
-      <section className="grid grid-cols-2">
+      <section className="2xl:grid 2xl:grid-cols-2">
         {/* Left */}
-        <div className="min-h-[80vh]">
+        <div className="2xl:min-h-[80vh]">
           <div className="px-[100px] flex flex-col space-y-[50px] text-muted-foreground">
             <div className="flex justify-center">
               <CallToActionButton
                 buttonText="Contact Us"
                 styles="bg-gradient-to-r from-[#121212] to-neutral-500 z-[30] hover:brightness-110 hover:scale-[1.02] transition-all duration-200 ease-in-out text-neutral-100 rounded-lg w-full shadow-[0px_4px_15px_rgba(111,235,167,0.5)]"
-                containerStyles="flex justify-center mt-[200px]"
+                containerStyles="flex justify-center mt-[50px] 2xl:mt-[200px]"
                 variant="default"
                 href="/contact-us"
               />
@@ -112,7 +112,7 @@ export const TechnologyMain = () => {
             width={700}
             priority
           />
-          <div className="absolute bg-[#121212] h-[300px] w-[300px] z-[1] left-[900px] bottom-[200px] rounded-bl-4xl" />
+          <div className="absolute bg-[#121212] 3xl:h-[300px] 3xl:w-[300px] z-[1] left-[900px] bottom-[200px] rounded-bl-4xl" />
         </div>
       </section>
     </main>

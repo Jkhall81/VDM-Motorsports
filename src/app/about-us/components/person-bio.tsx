@@ -20,8 +20,8 @@ export const PersonBio = ({
 }: PersonBioProps) => {
   return (
     <section className="grid grid-col-3 space-y-10">
-      <h2 className="text-center text-2xl font-semibold pt-10">{name}</h2>
       <div className="col-span-2 flex flex-col items-center">
+        <h2 className="text-center text-2xl font-semibold py-10">{name}</h2>
         <Image
           alt={imageAlt}
           className={cn("object-cover z-[30]", imageStyles)}
@@ -29,9 +29,9 @@ export const PersonBio = ({
           height={imageSize}
           width={imageSize}
         />
-      </div>
-      <div className="col-span-1 mt-5 mx-16">
-        <p className="text-black">{bioText}</p>
+        <div className="col-span-1 mt-5 mx-auto max-w-[400px]">
+          <p className="text-black">{bioText}</p>
+        </div>
       </div>
     </section>
   );
