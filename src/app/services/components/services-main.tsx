@@ -7,7 +7,7 @@ import { CallToActionButton } from "@/app/components/landing-page/call-to-action
 export const ServicesMain = () => {
   return (
     <main>
-      <section className="w-full min-h-screen bg-neutral-200 pb-[200px]">
+      <section className="w-full min-h-screen bg-neutral-200 2xl:pb-[200px]">
         <h1 className="sectionTitle">
           Precision{" "}
           <span className="bg-gradient-to-r from-[#6FEBA7] to-[#147a53b2] bg-clip-text text-transparent font-semibold">
@@ -15,10 +15,10 @@ export const ServicesMain = () => {
           </span>{" "}
           Transmission Rebuilds
         </h1>
-        <div className="flex">
+        <div className="2xl:flex">
           {/* Left Container */}
-          <div className="min-h-[calc(100vh-5rem)] w-1/2">
-            <div className="ml-[100px] mt-[100px] flex justify-between">
+          <div className="min-h-[calc(100vh-5rem)] 2xl:w-1/2 2xl:max-w-[850px]">
+            <div className="ml-[100px] mt-[100px] flex  2xl:justify-between justify-center">
               <Image
                 src="/stock-6.jpg"
                 className="object-cover z-[30] rounded-l-4xl rounded-tr-4xl"
@@ -27,7 +27,7 @@ export const ServicesMain = () => {
                 alt="e30 transmission"
                 priority
               />
-              <div className="max-w-[350px] pt-5 max-h-[300px] mr-[100px]">
+              <div className="max-w-[350px] pl-10 max-h-[300px] mr-[90px]">
                 <p className="text-black">
                   At VDM Motorsports, we specialize in rebuilding and refining
                   BMW E30 transmissions to deliver exceptional performance and
@@ -40,15 +40,17 @@ export const ServicesMain = () => {
                 </p>
               </div>
             </div>
-            <div className="px-[100px] mt-[100px]">
-              <p className="text-black">
-                Based in Phoenix, AZ, we take pride in serving BMW enthusiasts
-                across the country. Our commitment to quality and attention to
-                detail set us apart, making VDM Motorsports the trusted choice
-                for E30 owners who demand the best. If you&apos;re ready to
-                upgrade your transmission, reach out today and let us help you
-                get back on the road with confidence.
-              </p>
+            <div className="2xl:max-w-[960px] flex justify-center 2xl:mx-0 2xl:px-[100px] mt-[60px]">
+              <div className="max-w-[660px]">
+                <p className="text-black">
+                  Based in Phoenix, AZ, we take pride in serving BMW enthusiasts
+                  across the country. Our commitment to quality and attention to
+                  detail set us apart, making VDM Motorsports the trusted choice
+                  for E30 owners who demand the best. If you&apos;re ready to
+                  upgrade your transmission, reach out today and let us help you
+                  get back on the road with confidence.
+                </p>
+              </div>
             </div>
             <div className="flex justify-center mt-[100px]">
               <CallToActionButton
@@ -61,14 +63,14 @@ export const ServicesMain = () => {
             </div>
           </div>
           {/* Right Container */}
-          <div className="min-h-[calc(100vh-5rem)] w-1/2 flex items-center justify-center">
+          <div className="h-0 2xl:min-h-[calc(100vh-5rem)] w-0 2xl:w-1/2 flex items-center justify-center">
             <AnimatePresence>
               <motion.div
                 key={"one"}
                 initial={{ opacity: 0.1, transform: "translateX(0px)" }}
                 animate={{ opacity: 1, transform: "translateX(-300px)" }}
                 transition={{ once: true, type: "ease-in", duration: 3 }}
-                className="bg-[rgb(111,235,167)] absolute w-[400px] h-[400px] z-[1] rounded-tl-4xl"
+                className="bg-[rgb(111,235,167)] absolute 3xl:w-[400px] 3xl:h-[400px] z-[1] rounded-tl-4xl"
               />
             </AnimatePresence>
             <Image
