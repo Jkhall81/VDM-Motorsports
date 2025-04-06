@@ -38,7 +38,7 @@ export const LandingMiddle = () => {
             styles="bg-gradient-to-r from-[#121212] to-neutral-500 hover:brightness-110 hover:scale-[1.02] transition-all duration-200 ease-in-out text-neutral-100 rounded-lg w-full shadow-[0px_8px_15px_rgba(111,235,167,0.5)]"
             containerStyles="flex justify-center"
             variant="default"
-            href="/"
+            href="/contact-us"
           />
         </div>
       </section>
