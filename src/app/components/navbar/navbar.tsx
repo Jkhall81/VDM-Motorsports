@@ -12,7 +12,6 @@ import {
 } from "@/components/ui/dialog";
 import { Hint } from "../hint";
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
 
 const links = [
   {
