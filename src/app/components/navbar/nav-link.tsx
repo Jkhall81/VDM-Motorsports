@@ -8,12 +8,14 @@ interface NavlinkProps {
   href: string;
   title: string;
   styles?: string;
+  onClick?: () => void;
 }
 
-export const Navlink = ({ href, title, styles }: NavlinkProps) => {
+export const Navlink = ({ href, title, styles, onClick }: NavlinkProps) => {
   const pathname = usePathname();
   return (
     <Link
+      onClick={onClick}
       className={cn(
         "px-6 font-semibold hover:text-emerald-500 select-none",
         styles

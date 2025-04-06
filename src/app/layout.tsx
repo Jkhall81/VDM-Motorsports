@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import { Navbar } from "./components/navbar/navbar";
 import "./globals.css";
 import { Footer } from "./components/footer/footer";
+import { TooltipProvider } from "@/components/ui/tooltip";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -28,17 +29,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className="overflow-x-hidden" lang="en">
-      <body
-        className={`bg-neutral-200 max-w-[1920] ${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        <div className="relative">
-          <div className="absolute inset-0 pointer-events-none z-30 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
-          <Navbar />
-          {children}
-        </div>
-        <Footer />
-      </body>
-    </html>
+    <TooltipProvider>
+      <html className="overflow-x-hidden" lang="en">
+        <body
+          className={`bg-neutral-200 max-w-[1920] ${geistSans.variable} ${geistMono.variable} antialiased`}
+        >
+          <div className="relative">
+            <div className="absolute inset-0 pointer-events-none z-30 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
+            <Navbar />
+            {children}
+          </div>
+          <Footer />
+        </body>
+      </html>
+    </TooltipProvider>
   );
 }
