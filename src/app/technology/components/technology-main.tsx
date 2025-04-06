@@ -23,8 +23,8 @@ export const TechnologyMain = () => {
           <div className="bg-[rgb(111,235,167)] 3xl:h-[400px] 3xl:w-[800px] absolute top-[600px] left-[200px] opacity-90 z-[1] rounded-l-4xl rounded-tr-4xl" />
         </div>
         {/* Right Container */}
-        <div className="flex flex-col">
-          <div className="mx-[100px] mt-[100px] 2xl:mt-[200px] 2xl:mb-[50px]">
+        <div className="flex flex-col lg:mx-[100px] px-10">
+          <div className="mt-[100px] 2xl:mt-[200px] 2xl:mb-[50px]">
             <p className="text-black">
               At VDM Motorsports, we are dedicated to keeping the legendary BMW
               E30 alive by providing high-quality transmission rebuilds for
@@ -37,7 +37,7 @@ export const TechnologyMain = () => {
               build.
             </p>
           </div>
-          <div className="mx-[100px] my-[50px]">
+          <div className="my-[50px]">
             <p className="text-black">
               To ensure the highest level of precision and reliability,
               we&apos;ve developed our own custom tooling and machining
@@ -50,7 +50,7 @@ export const TechnologyMain = () => {
               replacement can offer.
             </p>
           </div>
-          <div className="mx-[100px]">
+          <div className="">
             <p className="text-black">
               Our craftsmanship is built on years of experience, attention to
               detail, and an uncompromising standard for quality. Each
@@ -68,7 +68,7 @@ export const TechnologyMain = () => {
       <section className="2xl:grid 2xl:grid-cols-2">
         {/* Left */}
         <div className="2xl:min-h-[80vh]">
-          <div className="px-[100px] flex flex-col space-y-[50px] text-muted-foreground">
+          <div className="lg:px-[100px] px-10 flex flex-col space-y-[50px] text-muted-foreground">
             <div className="flex justify-center">
               <CallToActionButton
                 buttonText="Contact Us"

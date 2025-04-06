@@ -29,7 +29,7 @@ export const PersonBio = ({
           height={imageSize}
           width={imageSize}
         />
-        <div className="col-span-1 mt-5 mx-auto max-w-[400px]">
+        <div className="col-span-1 mt-10 mx-auto max-w-[400px]">
           <p className="text-black">{bioText}</p>
         </div>
       </div>

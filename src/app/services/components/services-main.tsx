@@ -17,17 +17,17 @@ export const ServicesMain = () => {
         </h1>
         <div className="2xl:flex">
           {/* Left Container */}
-          <div className="min-h-[calc(100vh-5rem)] 2xl:w-1/2 2xl:max-w-[850px]">
-            <div className="ml-[100px] mt-[100px] flex  2xl:justify-between justify-center">
+          <div className="lg:min-h-[calc(100vh-5rem)] 2xl:w-1/2 2xl:max-w-[850px]">
+            <div className="lg:ml-[100px] mt-[100px] flex  2xl:justify-between justify-center">
               <Image
                 src="/stock-6.jpg"
-                className="object-cover z-[30] rounded-l-4xl rounded-tr-4xl"
+                className="object-cover hidden lg:flex z-[30] rounded-l-4xl rounded-tr-4xl"
                 width={300}
                 height={300}
                 alt="e30 transmission"
                 priority
               />
-              <div className="max-w-[350px] pl-10 max-h-[300px] mr-[90px]">
+              <div className="lg:max-w-[350px] lg:pl-10 lg:pr-0 max-h-[300px] lg:mr-[90px] px-10">
                 <p className="text-black">
                   At VDM Motorsports, we specialize in rebuilding and refining
                   BMW E30 transmissions to deliver exceptional performance and
@@ -41,7 +41,7 @@ export const ServicesMain = () => {
               </div>
             </div>
             <div className="2xl:max-w-[960px] flex justify-center 2xl:mx-0 2xl:px-[100px] mt-[60px]">
-              <div className="max-w-[660px]">
+              <div className="lg:max-w-[660px] px-10 lg:px-0">
                 <p className="text-black">
                   Based in Phoenix, AZ, we take pride in serving BMW enthusiasts
                   across the country. Our commitment to quality and attention to

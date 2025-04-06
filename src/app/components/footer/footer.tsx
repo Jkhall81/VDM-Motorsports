@@ -4,9 +4,9 @@ import { FaFacebook, FaInstagramSquare, FaYoutube } from "react-icons/fa";
 
 export const Footer = () => {
   return (
-    <main className="w-full h-[500px] bottom-0 bg-gray-400 grid grid-cols-4">
+    <main className="w-full h-[500px] bottom-0 bg-gray-400 2xl:grid 2xl:grid-cols-4">
       {/* Left */}
-      <section className="col-span-1">
+      <section className="2xl:block hidden 2xl:col-span-1">
         <div className="flex flex-col">
           <div className="flex px-10 pt-10 pb-5">
             <Logo
@@ -16,10 +16,6 @@ export const Footer = () => {
               styles=""
               size={165}
             />
-            {/* <h2 className="text-xl ml-4">
-              <span className="font-semibold">VDM</span>{" "}
-              <span className="text-white">Motorsports</span>
-            </h2> */}
           </div>
           <div className="mx-10">
             <blockquote className="text-neutral-100">
@@ -42,16 +38,16 @@ export const Footer = () => {
           </div>
           <div className="row-span-1">
             <div className="flex justify-center space-x-15 text-neutral-100">
-              <Link className="hover:text-blue-500" href="/services">
+              <Link className="hover:text-emerald-500" href="/services">
                 Services
               </Link>
-              <Link className="hover:text-blue-500" href="/technology">
+              <Link className="hover:text-emerald-500" href="/technology">
                 Technology
               </Link>
-              <Link className="hover:text-blue-500" href="/about-us">
+              <Link className="hover:text-emerald-500" href="/about-us">
                 About Us
               </Link>
-              <Link className="hover:text-blue-500" href="/contact-us">
+              <Link className="hover:text-emerald-500" href="/contact-us">
                 Contact Us
               </Link>
             </div>

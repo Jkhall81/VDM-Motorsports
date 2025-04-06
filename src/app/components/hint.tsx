@@ -12,7 +12,7 @@ interface HintProps {
 export const Hint = ({ text, children }: HintProps) => {
   return (
     <Tooltip>
-      <TooltipTrigger>{children}</TooltipTrigger>
+      <TooltipTrigger asChild>{children}</TooltipTrigger>
       <TooltipContent>
         <p>{text}</p>
       </TooltipContent>

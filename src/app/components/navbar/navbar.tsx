@@ -12,6 +12,7 @@ import {
 } from "@/components/ui/dialog";
 import { Hint } from "../hint";
 import { useState } from "react";
+import { Button } from "@/components/ui/button";
 
 const links = [
   {
@@ -63,8 +64,8 @@ export const Navbar = () => {
           </DialogTrigger>
           <DialogContent className="bg-neutral-300 border-none">
             <DialogHeader>
-              <DialogTitle className="text-center">Go To...</DialogTitle>
-              <div className="flex flex-col items-center">
+              <DialogTitle className="text-center pb-4">Go To...</DialogTitle>
+              <div className="flex flex-col space-y-4 items-center">
                 <Navlink href="/" title="Home" onClick={handleClose} />
                 {links.map((link, index) => (
                   <Navlink

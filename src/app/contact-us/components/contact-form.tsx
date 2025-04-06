@@ -56,7 +56,7 @@ export function ContactForm() {
     <Form {...form}>
       <form
         onSubmit={form.handleSubmit(onSubmit)}
-        className="z-[30] space-y-8 border-2 2xl:ml-20 2xl:mr-0 mx-20 shadow-2xl bg-gray-400 px-10 py-20 w-[600px] 2xl:w-[30vw] border-neutral-500 rounded-xl"
+        className="z-[30] space-y-8 border-2 2xl:ml-20 2xl:mr-0 lg:mx-20 shadow-2xl bg-gray-400 w-full px-10 py-20 sm:w-[600px] 2xl:w-[30vw] border-neutral-500 rounded-xl"
       >
         {/* Full name */}
         <FormField
