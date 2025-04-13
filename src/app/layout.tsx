@@ -32,7 +32,7 @@ export default function RootLayout({
     <TooltipProvider>
       <html className="overflow-x-hidden" lang="en">
         <body
-          className={`bg-neutral-200 max-w-[1920] ${geistSans.variable} ${geistMono.variable} antialiased`}
+          className={`bg-neutral-200 ${geistSans.variable} ${geistMono.variable} antialiased`}
         >
           <div className="relative">
             <div className="absolute inset-0 pointer-events-none z-30 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
