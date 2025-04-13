@@ -36,17 +36,17 @@ export default function AboutUsPage() {
             to achieve precise tolerances and clearances, often exceeding
             factory specifications. This is due to the fact we are providing the
             highest quality and performance and not aiming to meet a price point
-            . More to the point, we’re never satisfied. We keep looking for
+            . More to the point, we&apos;re never satisfied. We keep looking for
             improvements whether that means using better bearings, new materials
             or new processes. We are constantly looking for ways to make our
             transmission more durable, more reliable and more performant.{" "}
           </p>
           <p>
-            At VDM we believe that you shouldn't really notice the transmission
-            working. We want it to be so well-integrated that it becomes an
-            extension of your driving inputs, never interrupting the flow of
-            power while creating a sense of confidence that helps elevate your
-            driving experience.
+            At VDM we believe that you shouldn&apos;t really notice the
+            transmission working. We want it to be so well-integrated that it
+            becomes an extension of your driving inputs, never interrupting the
+            flow of power while creating a sense of confidence that helps
+            elevate your driving experience.
           </p>
           <h3 className="font-semibold text-xl">
             The birth of VDM Motorsports

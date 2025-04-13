@@ -130,7 +130,8 @@ export const ServicesMain = () => {
                 hubs. Shift forks are carefully inspected and replaced as
                 needed. The result is a transformative driving experience.
                 Expect smoother, more precise shifts with minimal effort. Simply
-                put, these gearboxes deliver a feel that's undeniably excellent
+                put, these gearboxes deliver a feel that&apos;s undeniably
+                excellent
               </p>
             </div>
           </div>

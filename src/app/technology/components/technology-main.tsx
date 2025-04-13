@@ -49,9 +49,10 @@ export const TechnologyMain = () => {
               How the clutch system works — Step by Step
             </h2>
             <p className="mt-10">
-              Let's imagine for a second, you’re sitting in your car with your
-              precision VDM gearbox installed. It’s a beautiful day out when you
-              start your car up. You’re ready, and you’re excited.
+              Let&apos;s imagine for a second, you&apos;re sitting in your car
+              with your precision VDM gearbox installed. It&apos;s a beautiful
+              day out when you start your car up. You&apos;re ready, and
+              you&apos;re excited.
             </p>
             <div className="flex justify-center">
               <CallToActionButton
@@ -107,8 +108,8 @@ export const TechnologyMain = () => {
             experience.
           </p>
           <p className="mt-10">
-            Let's talk about how some of these components can fail and affect
-            other parts of the system and how you can identify them.
+            Let&apos;s talk about how some of these components can fail and
+            affect other parts of the system and how you can identify them.
           </p>
           <h3 className="my-10 font-semibold">
             Clutch Master/Slave Failure Identification
@@ -283,9 +284,9 @@ export const TechnologyMain = () => {
             </p>
             <p className="text-black">
               The primary goal of cryogenic treatment is to transform retained
-              austenite and increase the hardness of the material's structure.
-              Cryo-treated gears exhibit a measurable improvement in wear
-              resistance and bending fatigue life, while also minimizing
+              austenite and increase the hardness of the material&apos;s
+              structure. Cryo-treated gears exhibit a measurable improvement in
+              wear resistance and bending fatigue life, while also minimizing
               residual stress and the risk of stress fractures.
             </p>
             <h3 className="text-xl font-semibold mb-10">
