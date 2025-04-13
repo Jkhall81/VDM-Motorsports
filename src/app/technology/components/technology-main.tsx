@@ -33,8 +33,8 @@ export const TechnologyMain = () => {
               transmission/driveline
             </h3>
             <p className="text-black">
-              When installing a new VDM transmission it’s imperative you inspect
-              and understand the operation of the other components that
+              When installing a new VDM transmission &apos;s imperative you
+              inspect and understand the operation of the other components that
               contribute to a functional driveline.
             </p>
           </div>
@@ -172,15 +172,15 @@ export const TechnologyMain = () => {
           <div className="flex flex-col max-w-[850px] px-10">
             <h2 className="text-2xl font-bold mb-10">Synchronizers</h2>
             <p className="mb-10">
-              Manual transmission synchronizers (or "synchros") are a critical,
-              though often misunderstood, component to smooth gear shifting.
-              These mechanical components inside your manual transmission make
-              it possible to shift gears without grinding or forcing them
-              together. They do this, as their name suggests, by synchronizing
-              the speed of the gear being selected with the speed of the
-              transmission shaft. Without them, you would have to perfectly
-              rev-match for every upshift and downshift to prevent grinding (and
-              possibly damaging) gears.
+              Manual transmission synchronizers (or &ldquo;synchros&rdquo;) are
+              a critical, though often misunderstood, component to smooth gear
+              shifting. These mechanical components inside your manual
+              transmission make it possible to shift gears without grinding or
+              forcing them together. They do this, as their name suggests, by
+              synchronizing the speed of the gear being selected with the speed
+              of the transmission shaft. Without them, you would have to
+              perfectly rev-match for every upshift and downshift to prevent
+              grinding (and possibly damaging) gears.
             </p>
             <h3 className="text-xl font-semibold mb-10">
               The synchronized manual transmission shifting process:
@@ -223,8 +223,8 @@ export const TechnologyMain = () => {
             <ul className="list-disc leading-loose">
               <li>
                 Worn synchros: Synchros are commonly made of brass or some other
-                high-friction material and will eventually wear. You’ll start
-                noticing grinding during gear changes, especially when
+                high-friction material and will eventually wear. You&apos;ll
+                start noticing grinding during gear changes, especially when
                 downshifting as the synchros become worn out.
               </li>
               <li>
@@ -241,7 +241,7 @@ export const TechnologyMain = () => {
                 damaged gears may need to be replaced.{" "}
               </p>
               <p>
-                At VDM we’ve spent months testing different synchros,
+                At VDM we&apos;ve spent months testing different synchros,
                 refinishing gear mating surfaces and trying various gear fluids
                 to find the best combination for both durability and
                 performance.{" "}
@@ -250,10 +250,10 @@ export const TechnologyMain = () => {
                 It turns out that not all synchros are created equal. New
                 materials and manufacturing technology has allowed the creation
                 of both more durable as well as more effective synchros. When
-                combined with hand finished gear mating surfaces we’ve found
-                that these allow for incredibly smooth shifts throughout the
-                entire RPM range with minimal break-in while operating across a
-                wide range of operating temperatures
+                combined with hand finished gear mating surfaces we&apos;ve
+                found that these allow for incredibly smooth shifts throughout
+                the entire RPM range with minimal break-in while operating
+                across a wide range of operating temperatures
               </p>
             </div>
           </div>
