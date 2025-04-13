@@ -18,7 +18,7 @@ export const ServicesMain = () => {
         <div className="2xl:flex">
           {/* Left Container */}
           <div className="lg:min-h-[calc(100vh-5rem)] 2xl:w-1/2 2xl:max-w-[850px]">
-            <div className="lg:ml-[100px] mt-[100px] flex  2xl:justify-between justify-center">
+            <div className="lg:ml-[100px] mt-[100px] flex 2xl:justify-between justify-center">
               <Image
                 src="/stock-6.jpg"
                 className="object-cover hidden lg:flex z-[30] rounded-l-4xl rounded-tr-4xl"
@@ -28,27 +28,37 @@ export const ServicesMain = () => {
                 priority
               />
               <div className="lg:max-w-[350px] lg:pl-10 lg:pr-0 max-h-[300px] lg:mr-[90px] px-10">
+                <h2 className="text-center text-3xl font-bold py-[50px]">
+                  Getrag 260
+                </h2>
                 <p className="text-black">
-                  At VDM Motorsports, we specialize in rebuilding and refining
-                  BMW E30 transmissions to deliver exceptional performance and
-                  reliability. Whether you&apos;re restoring a classic,
-                  upgrading for better drivability, or preparing for track use,
-                  our expert craftsmanship ensures your transmission meets the
-                  highest standards. Each rebuild is meticulously inspected,
-                  refreshed with high-quality components, and tested to ensure
-                  smooth, precise shifting—bringing new life to your E30.
+                  Our G260s start life as a factory plain old Getrag gearbox.
+                  Unlike factory gearboxes, ours are never built down to a
+                  price. They’re built up to the highest performance standards
+                  possible. The cases are taken apart and all components are
+                  inspected thoroughly for damage and excessive wear.
                 </p>
               </div>
             </div>
             <div className="2xl:max-w-[960px] flex justify-center 2xl:mx-0 2xl:px-[100px] mt-[60px]">
               <div className="lg:max-w-[660px] px-10 lg:px-0">
                 <p className="text-black">
-                  Based in Phoenix, AZ, we take pride in serving BMW enthusiasts
-                  across the country. Our commitment to quality and attention to
-                  detail set us apart, making VDM Motorsports the trusted choice
-                  for E30 owners who demand the best. If you&apos;re ready to
-                  upgrade your transmission, reach out today and let us help you
-                  get back on the road with confidence.
+                  The gears are sent out for isotropic surface refinishing (REM
+                  polishing) and cryogenic treatment. The synchronizer mating
+                  surfaces on each gear are hand finished for the best possible
+                  shifting performance. The gear stack is assembled with all new
+                  precision bearings, as well as hand fitted synchronizer and
+                  polished engagement hubs. Each shift fork is measured for wear
+                  and replaced as necessary. To address a common issue, we
+                  incorporate oiling modifications to the secondary shaft
+                  bearings, preventing oil starvation under high-load
+                  conditions.
+                </p>
+                <p className="text-black mt-10">
+                  If you’ve never driven a vehicle with a precision built
+                  gearbox, you’re in for a treat. These gearboxes shift smoother
+                  and more precisely with less effort. In short, they just feel
+                  right.
                 </p>
               </div>
             </div>
@@ -81,6 +91,48 @@ export const ServicesMain = () => {
               height={700}
               priority
             />
+          </div>
+        </div>
+        {/* lower section */}
+        <div className="2xl:grid 2xl:grid-cols-2 min-h-[85vh] w-full">
+          {/* left container */}
+          <div className="hidden 2xl:flex min-h-[80vh]"></div>
+          {/* right container */}
+          <div className="flex flex-col items-center min-h-[80vh]">
+            <h2 className="text-center text-3xl font-bold py-[50px]">ZF5</h2>
+            <div className="px-10 max-w-[850px]">
+              <p className="text-black">
+                Similar to our Getrag 260 but for people who actually like
+                functional air conditioning in their vehicles.
+              </p>
+            </div>
+            <h2 className="text-center text-3xl font-bold py-[50px]">
+              Getrag 265
+            </h2>
+            <div className="space-y-10 px-10 max-w-[850px]">
+              <p>
+                Our G265 transmissions begin as standard Getrag gearboxes which
+                fortunately for them have been brought to us to be revitalized.
+                Unlike mass-produced units built to a budget, our G265s are
+                meticulously engineered for peak performance. Each gearbox is
+                completely disassembled, and every component undergoes rigorous
+                inspection for damage or wear.{" "}
+              </p>
+              <p>
+                Gears are then treated with isotropic surface finishing (REM
+                polishing) and cryogenic processing to enhance durability and
+                reduce friction. To ensure optimal shifting, the synchronizer
+                mating surfaces on each gear are hand-finished.
+              </p>
+              <p>
+                The gear stack is reassembled using all-new, precision bearings,
+                along with hand-fitted synchronizers and polished engagement
+                hubs. Shift forks are carefully inspected and replaced as
+                needed. The result is a transformative driving experience.
+                Expect smoother, more precise shifts with minimal effort. Simply
+                put, these gearboxes deliver a feel that's undeniably excellent
+              </p>
+            </div>
           </div>
         </div>
       </section>

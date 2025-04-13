@@ -8,7 +8,7 @@ export const Footer = () => {
       {/* Left */}
       <section className="2xl:block hidden 2xl:col-span-1">
         <div className="flex flex-col">
-          <div className="flex px-10 pt-10 pb-5">
+          <div className="flex px-12 pt-10 pb-5">
             <Logo
               image="/VDM-test-one.png"
               alt="garage logo"
@@ -17,10 +17,10 @@ export const Footer = () => {
               size={165}
             />
           </div>
-          <div className="mx-10">
+          <div className="mx-12">
             <blockquote className="text-neutral-100">
-              &ldquo;Precision-built E30 transmissions for enthusiasts and
-              professionals.&rdquo;
+              &ldquo;All transmissions lubricated during break-in with the tears
+              of our tail-light gazers.&rdquo;
             </blockquote>
           </div>
         </div>
@@ -58,16 +58,10 @@ export const Footer = () => {
       <section className="col-span-1">
         <div className="px-10 pt-10 pb-5 grid grid-rows-3 h-full">
           <div className="text-neutral-100 space-y-5">
-            <p>Phone:</p>
-            <p>Address:</p>
-            <p>Phoenix, AZ</p>
+            <p className="pt-26">Located in sunny Phoenix, Arizona</p>
           </div>
           <div className=""></div>
-          <div className="text-zinc-800 flex flex-col space-y-5">
-            <span>Terms of Service</span>
-            <span>Privacy Policy</span>
-            <span>Warranty / Returns Policy</span>
-          </div>
+          <div className="text-zinc-800 flex flex-col space-y-5"></div>
         </div>
       </section>
     </main>

@@ -3,7 +3,7 @@ import { cn } from "@/lib/utils";
 interface PersonBioProps {
   orientation?: string;
   name: string;
-  bioText: string;
+  bioText: string[];
   imageSrc: string;
   imageSize: number;
   imageAlt: string;
@@ -30,7 +30,11 @@ export const PersonBio = ({
           width={imageSize}
         />
         <div className="col-span-1 mt-10 mx-auto max-w-[400px]">
-          <p className="text-black">{bioText}</p>
+          {bioText.map((paragraph, index) => (
+            <p key={index} className="text-black py-4">
+              {paragraph}
+            </p>
+          ))}
         </div>
       </div>
     </section>

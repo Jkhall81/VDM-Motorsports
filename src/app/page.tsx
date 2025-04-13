@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <main className="bg-neutral-200">
       <LandingMain />
-      <Separator className="mx-20 bg-black" />
-      <LandingMiddle />
+      {/* <Separator className="mx-20 bg-black" />
+      <LandingMiddle /> */}
     </main>
   );
 }

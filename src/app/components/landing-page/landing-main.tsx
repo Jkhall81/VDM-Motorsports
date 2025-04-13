@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "motion/react";
 
 export const LandingMain = () => {
   return (
-    <div className="w-full min-h-[calc(100vh-5rem)] flex mb-[50px]">
+    <div className="w-full min-h-[calc(100vh-5rem)] flex pb-[120px]">
       <AnimatePresence>
         <motion.div
           key={"one"}
@@ -39,17 +39,10 @@ export const LandingMain = () => {
               priority
             />
           </div>
-          <div className="flex flex-col items-start justify-center mt-[100px] 2xl:mt-[200px] 2xl:mr-[200px] pl-[50px] z-[30]">
-            <span className="text-6xl">
-              <strong className="bg-gradient-to-r from-[#6FEBA7] to-[#147a53b2] bg-clip-text text-transparent">
-                VDM
-              </strong>{" "}
-              Motorsports
-            </span>
-            <p className="text-black pr-10 text-lg pt-10 text-wrap">
-              Precision-built BMW E30 transmissions for enthusiasts who demand
-              performance and reliability. Crafted with expertise, tested for
-              excellence.
+          <div className="items-start justify-center mt-[100px] 2xl:mt-[180px] pl-[50px] z-[30]">
+            <p className="text-black px-5 text-2xl text-wrap leading-loose">
+              Precision re-engineered transmissions providing the highest
+              quality for drivers who demand excellence.
             </p>
           </div>
         </div>
