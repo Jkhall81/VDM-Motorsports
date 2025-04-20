@@ -4,9 +4,9 @@ import { FaFacebook, FaInstagramSquare, FaYoutube } from "react-icons/fa";
 
 export const Footer = () => {
   return (
-    <main className="w-full h-[500px] bottom-0 bg-gray-400 2xl:grid 2xl:grid-cols-4">
+    <main className="w-full 2xl:h-[500px] bottom-0 bg-gray-400 2xl:grid 2xl:grid-cols-4">
       {/* Left */}
-      <section className="2xl:block hidden 2xl:col-span-1">
+      <section className="2xl:block 2xl:col-span-1">
         <div className="flex flex-col">
           <div className="flex px-12 pt-10 pb-5">
             <Logo
@@ -27,7 +27,7 @@ export const Footer = () => {
       </section>
       {/* Middle */}
       <section className="col-span-2">
-        <div className="grid grid-rows-4 h-full">
+        <div className="grid grid-rows-4 h-full space-y-12 2xl:space-y-0">
           <div className="row-span-1"></div>
           <div className="row-span-2">
             <div className="flex justify-center space-x-15">
@@ -58,7 +58,7 @@ export const Footer = () => {
       <section className="col-span-1">
         <div className="px-10 pt-10 pb-5 grid grid-rows-3 h-full">
           <div className="text-neutral-100 space-y-5">
-            <p className="pt-26">Located in sunny Phoenix, Arizona</p>
+            <p className="2xl:pt-26">Located in sunny Phoenix, Arizona</p>
           </div>
           <div className=""></div>
           <div className="text-zinc-800 flex flex-col space-y-5"></div>

@@ -29,7 +29,7 @@ export const PersonBio = ({
           height={imageSize}
           width={imageSize}
         />
-        <div className="col-span-1 mt-10 mx-auto max-w-[400px]">
+        <div className="col-span-1 mt-10 mx-auto max-w-[600px] px-10">
           {bioText.map((paragraph, index) => (
             <p key={index} className="text-black py-4">
               {paragraph}

@@ -101,7 +101,7 @@ export const TechnologyMain = () => {
       <Separator className="bg-black mx-20 mt-[60px]" />
       <section className="2xl:grid 2xl:grid-cols-3 w-full">
         {/* Col 1 */}
-        <div className="px-20 pt-10 flex flex-col items-center 2xl:justify-start 2xl:min-h-[80vh]">
+        <div className="px-20 pt-10 relative flex flex-col items-center 2xl:justify-start 2xl:min-h-[80vh]">
           <p>
             Picturing this whole process helps us understand better how each and
             every component contributes to a functioning vehicle and better
@@ -123,6 +123,7 @@ export const TechnologyMain = () => {
             </li>
             <li>Clutch pedal sticking to the floor</li>
           </ul>
+          <div className="absolute bg-[#147a53b2] rounded-l-4xl rounded-br-4xl 2xl:w-[400px] 2xl:h-[200px] top-[500px]" />
         </div>
 
         {/* Col 2 */}
@@ -151,7 +152,8 @@ export const TechnologyMain = () => {
         </div>
 
         {/* Col 3 */}
-        <div className="flex flex-col items-center 2xl:justify-end px-20 space-y-10">
+        <div className="flex flex-col relative items-center 2xl:justify-end px-20 space-y-10">
+          <div className="absolute mr-10 rounded-r-4xl rounded-tl-4xl top-[100px] 2xl:w-[400px] 2xl:h-[200px] bg-[rgb(111,235,167)]" />
           <h3 className="font-semibold">Shifter component failure</h3>
           <ul className="list-disc">
             <li>
@@ -211,10 +213,26 @@ export const TechnologyMain = () => {
           </div>
         </div>
         {/* Currently Empty */}
-        <div></div>
+        <div className="hidden 2xl:flex items-center justify-center">
+          <Image
+            src="/synchronizer3.webp"
+            width={600}
+            height={600}
+            className="object-cover rounded-r-4xl rounded-tl-4xl"
+            alt="synchronizer"
+          />
+        </div>
       </section>
       <section className="2xl:grid 2xl:grid-cols-2 w-full mt-10">
-        <div></div>
+        <div className="hidden 2xl:flex items-center justify-center">
+          <Image
+            src="/synchronizer2.jpg"
+            alt="synchronizer"
+            width={500}
+            height={500}
+            className="object-cover rounded-l-4xl rounded-br-4xl"
+          />
+        </div>
         <div className="min-h-[50vh] flex flex-col items-center">
           <div className="flex flex-col max-w-[850px] px-10">
             <h3 className="text-xl font-semibold mb-10">
@@ -320,7 +338,7 @@ export const TechnologyMain = () => {
             width={700}
             priority
           />
-          <div className="absolute bg-[#121212] 3xl:h-[300px] 3xl:w-[300px] z-[1] left-[900px] bottom-[360px] rounded-bl-4xl" />
+          <div className="absolute bg-[#121212] 3xl:h-[300px] 3xl:w-[600px] z-[1] left-[900px] bottom-[360px] rounded-bl-4xl" />
         </div>
       </section>
     </main>

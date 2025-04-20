@@ -59,7 +59,7 @@ export default function AboutUsPage() {
           </p>
         </div>
       </section>
-      <section className="2xl:grid 2xl:grid-cols-3 h-[110vh]">
+      <section className="2xl:grid 2xl:grid-cols-3 h-[110vh] relative">
         <div className="col-span-1 2xl:ml-[50px]">
           <PersonBio
             name="Jack Roman"
@@ -74,19 +74,20 @@ export default function AboutUsPage() {
           <Image
             src="/stock-8.webp"
             alt="e30 interior"
-            height={700}
-            width={700}
+            height={900}
+            width={900}
             className="object-cover z-[30] rounded-r-4xl rounded-tl-4xl"
           />
         </div>
+        <div className="absolute rounded-l-4xl rounded-br-4xl left-[230px] top-[1020px] bg-[rgb(111,235,167)] 2xl:h-[180px] 2xl:w-[800px]" />
       </section>
-      <section className="2xl:grid 2xl:grid-cols-3 h-full pb-[200px]">
+      <section className="relative 2xl:grid 2xl:grid-cols-3 h-full pb-[200px]">
         <div className="2xl:col-span-2 2xl:flex hidden items-center justify-center">
           <Image
             src="/stock-9.jpg"
             alt="e30 interior"
-            height={700}
-            width={700}
+            height={1000}
+            width={1000}
             className="object-cover z-[30] rounded-l-4xl rounded-br-4xl"
           />
         </div>
@@ -100,6 +101,7 @@ export default function AboutUsPage() {
             imageStyles="rounded-r-4xl rounded-bl-4xl"
           />
         </div>
+        <div className="absolute bg-[#147a53b2] rounded-l-4xl rounded-br-4xl 2xl:h-[200px] 2xl:w-[600px] bottom-[100px] left-[200px] " />
       </section>
     </main>
   );

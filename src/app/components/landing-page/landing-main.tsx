@@ -33,7 +33,7 @@ export const LandingMain = () => {
             <Image
               src="/stock-4.jpg"
               alt="white bmw e30"
-              className="object-cover z-[30] 2xl:600 rounded-tl-4xl rounded-bl-4xl rounded-tr-4xl"
+              className="object-cover z-[30] 2xl:mr-[30px] rounded-tl-4xl rounded-bl-4xl rounded-tr-4xl"
               height={400}
               width={800}
               priority

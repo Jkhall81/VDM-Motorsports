@@ -96,7 +96,15 @@ export const ServicesMain = () => {
         {/* lower section */}
         <div className="2xl:grid 2xl:grid-cols-2 min-h-[85vh] w-full">
           {/* left container */}
-          <div className="hidden 2xl:flex min-h-[80vh]"></div>
+          <div className="hidden 2xl:flex items-center justify-center min-h-[80vh]">
+            <Image
+              src="/getrag_2.jpg"
+              width={600}
+              height={600}
+              alt="getrag"
+              className="object-cover rounded-l-4xl rounded-br-4xl"
+            />
+          </div>
           {/* right container */}
           <div className="flex flex-col items-center min-h-[80vh]">
             <h2 className="text-center text-3xl font-bold py-[50px]">ZF5</h2>
