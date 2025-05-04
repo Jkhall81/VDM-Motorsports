@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import { Navbar } from "./components/navbar/navbar";
+// import { Navbar } from "./components/navbar/navbar";
 import "./globals.css";
-import { Footer } from "./components/footer/footer";
+// import { Footer } from "./components/footer/footer";
 import { TooltipProvider } from "@/components/ui/tooltip";
 
 const geistSans = Geist({
@@ -23,9 +23,8 @@ export const metadata: Metadata = {
     "VDM Motorsports specializes in high-performance BMW E30 transmission rebuilds. From precision-engineered restorations to custom upgrades, we deliver top-tier craftsmanship for enthusiasts who demand the best. Based in Phoenix, we bring expert-level service to keep your classic BMW shifting flawlessly. Contact us today!",
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
+export default function RootLayout({}: // children,
+Readonly<{
   children: React.ReactNode;
 }>) {
   return (
