@@ -34,12 +34,13 @@ export default function RootLayout({
         <body
           className={`bg-neutral-200 ${geistSans.variable} ${geistMono.variable} antialiased`}
         >
-          <div className="relative">
+          <h1 className="text-center mt-[400px]">404 Page Not Found</h1>
+          {/* <div className="relative">
             <div className="absolute inset-0 pointer-events-none z-30 bg-gradient-to-r from-black/70 via-black/40 to-transparent" />
             <Navbar />
             {children}
           </div>
-          <Footer />
+          <Footer /> */}
         </body>
       </html>
     </TooltipProvider>
